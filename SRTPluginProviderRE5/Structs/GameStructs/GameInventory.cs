@@ -7,6 +7,7 @@ namespace SRTPluginProviderRE5.Structs.GameStructs
     {
         [FieldOffset(0x4)] public int ItemID;
         [FieldOffset(0x8)] public int Quantity;
+        [FieldOffset(0xC)] public int MaxQuantity;
         [FieldOffset(0x18)] public int SlotNo;
         [FieldOffset(0x1C)] public int State;
         [FieldOffset(0x20)] public fixed byte filler[16];

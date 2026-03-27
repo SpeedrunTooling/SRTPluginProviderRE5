@@ -13,6 +13,9 @@ namespace SRTPluginProviderRE5
         // GameInfo
         string GameInfo { get; set; }
 
+        // GameState
+        byte Gamestate { get; set; }
+
         // Chris HP
         GamePlayer Player { get; set; }
 

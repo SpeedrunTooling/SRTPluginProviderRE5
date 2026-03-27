@@ -29,6 +29,9 @@ namespace SRTPluginProviderRE5
         public GamePlayer Player2 { get => _player2; set => _player2 = value; }
         internal GamePlayer _player2;
 
+        public byte Gamestate { get => _gameState; set => _gameState = value; }
+        internal byte _gameState;
+
         // Money
         public int Money { get => _money; set => _money = value; }
         internal int _money;

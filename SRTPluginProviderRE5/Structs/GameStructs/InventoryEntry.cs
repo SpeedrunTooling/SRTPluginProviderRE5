@@ -29,6 +29,8 @@ namespace SRTPluginProviderRE5.Structs.GameStructs
         internal int _stackSize;
         public int SlotNo { get => _slotNo; set => _slotNo = value; }
         internal int _slotNo;
+        public int MaxSize { get => _maxSize; set => _maxSize = value; }
+        internal int _maxSize;
         public ItemState EquippedState { get => _equippedState; set => _equippedState = value; }
         internal ItemState _equippedState;
         public bool IsItem => Enum.IsDefined(typeof(Item), _itemID);

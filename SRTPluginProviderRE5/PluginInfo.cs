@@ -11,7 +11,7 @@ namespace SRTPluginProviderRE5
 
         public string Author => "Mysterion_06_, VideoGameRoulette & Squirrelies";
 
-        public Uri MoreInfoURL => new Uri("https://github.com/Mysterion06/SRTPluginProviderRE5");
+        public Uri MoreInfoURL => new Uri("https://github.com/SpeedrunTooling/SRTPluginProviderRE5");
 
         public int VersionMajor => assemblyFileVersion.ProductMajorPart;
 
